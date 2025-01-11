@@ -1,8 +1,46 @@
 body {
     margin: 0;
+    background-color: #1B244A;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 35.89px;
+}
+
+.score-display {
+    color: #F94F6D;
+    background-color: #090001;
+    font-family: Cursed Timer ULiL;
+    font-size: 5.6rem;
+    font-weight: 400;
+    line-height: 8rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.points-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button {
+    font-family: Cursed Timer ULiL;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    text-align: center;
+    background-color: #1B244A;
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+    border: 2px solid;
+    border-radius: 5px;
 }
