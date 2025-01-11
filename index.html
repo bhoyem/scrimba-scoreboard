@@ -1,16 +1,35 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
-            </div>
-            <div>
-                <h3>GUEST</h3>
-            </div>
-        </div>
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div id="score-display">
+                <div id="score-digits">0</div>
+            </div> <!-- home side display area -->
+            <div id="points-buttons">
+                <button class="button">+1</button>
+                <button class="button">+2</button>
+                <button class="button">+3</button>
+            </div> <!-- points-buttons div -->
+        </div> <!-- home side div -->
+        <div>
+            <h3>GUEST</h3>
+            <div id="score-display">
+                <div id="score-digits">0</div>
+            </div><!-- guest side display area -->
+            <div id="points-buttons">
+                <button class="button">+1</button>
+                <button class="button">+2</button>
+                <button class="button">+3</button>
+            </div> <!-- points-buttons div -->
+        </div> <!-- guest side div -->
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
