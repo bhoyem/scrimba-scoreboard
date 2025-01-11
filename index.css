@@ -17,23 +17,23 @@ body {
 .score-display {
     color: #F94F6D;
     background-color: #090001;
-    font-family: Cursed Timer ULiL;
+    font-family: Quantico, sans-serif;
     font-size: 5.6rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 8rem;
     text-align: center;
     width: 100%;
-    margin-bottom: 26px;
 }
 
 .points-buttons {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 26px 0;
 }
 
 .button {
-    font-family: Cursed Timer ULiL;
+    font-family: Quantico, sans-serif;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.7rem;
