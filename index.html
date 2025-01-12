@@ -10,26 +10,26 @@
 
 <body>
     <div class="container">
-        <div>
+        <div id="homeside">
             <h3>HOME</h3>
             <div class="score-display">
                 <div class="score-digits">0</div>
             </div> <!-- home side display area -->
             <div class="points-buttons">
-                <button class="button">+1</button>
-                <button class="button">+2</button>
-                <button class="button">+3</button>
+                <button class="button" id="home-1" onclick="addToScore('home', 1)">+1</button>
+                <button class="button" id="home-2" onclick="addToScore('home', 2)">+2</button>
+                <button class="button" id="home-3" onclick="addToScore('home', 3)">+3</button>
             </div> <!-- points-buttons div -->
         </div> <!-- home side div -->
-        <div>
+        <div id="guestside">
             <h3>GUEST</h3>
             <div class="score-display">
                 <div class="score-digits">0</div>
             </div><!-- guest side display area -->
             <div class="points-buttons">
-                <button class="button">+1</button>
-                <button class="button">+2</button>
-                <button class="button">+3</button>
+                <button class="button" id="guest-1" onclick="addToScore('guest', 1)">+1</button>
+                <button class="button" id="guest-2" onclick="addToScore('guest', 2)">+2</button>
+                <button class="button" id="guest-3" onclick="addToScore('guest', 3)">+3</button>
             </div> <!-- points-buttons div -->
         </div> <!-- guest side div -->
     </div>
