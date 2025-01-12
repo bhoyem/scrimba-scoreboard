@@ -10,10 +10,10 @@
 
 <body>
     <div class="container">
-        <div id="homeside">
+        <div class="team" id="home-side">
             <h3>HOME</h3>
             <div class="score-display">
-                <div class="score-digits">0</div>
+                <div class="score-digits" id="home-score">0</div>
             </div> <!-- home side display area -->
             <div class="points-buttons">
                 <button class="button" id="home-1" onclick="addToScore('home', 1)">+1</button>
@@ -21,10 +21,10 @@
                 <button class="button" id="home-3" onclick="addToScore('home', 3)">+3</button>
             </div> <!-- points-buttons div -->
         </div> <!-- home side div -->
-        <div id="guestside">
+        <div class="team" id="guest-side">
             <h3>GUEST</h3>
             <div class="score-display">
-                <div class="score-digits">0</div>
+                <div class="score-digits" id="guest-score">0</div>
             </div><!-- guest side display area -->
             <div class="points-buttons">
                 <button class="button" id="guest-1" onclick="addToScore('guest', 1)">+1</button>

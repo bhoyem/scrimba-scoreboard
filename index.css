@@ -1,10 +1,14 @@
 body {
     margin: 0;
-    background-color: #1B244A;
+    background-color: #10183A;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
     justify-content: space-around;
     color: #EEEEEE;
     text-align: center;
@@ -12,6 +16,15 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 35.89px;
+    max-width: 700px;
+}
+
+.team {
+    flex: 1 1 30%;
+    justify-items: center;
+    margin: 40px;
+    max-width: 150px;
+    
 }
 
 .score-display {
