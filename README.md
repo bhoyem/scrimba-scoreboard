@@ -6,4 +6,5 @@ This is a solo-project within the Scrimba JavaScript course
 
 ## Features 
 
-The project is intented to simulate a scoreboard as might be used in a sports game with buttons to add points in appropriate amounts for the sport
+The project is intented to simulate a scoreboard as might be used in a sports game with buttons to add points in appropriate amounts for the sport.
+The initial form is for scoring a basketball game.
